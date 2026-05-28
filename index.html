@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Diana & Rizky Wedding</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+.reveal{
+    opacity:0;
+    transition:1s ease;
+}
+
+/* DEFAULT */
+.reveal.active{
+    opacity:1;
+    transform:translate(0) scale(1);
+}
+
+/* SLIDE UP */
+.reveal-up{
+    transform:translateY(80px);
+}
+
+/* SLIDE LEFT */
+.reveal-left{
+    transform:translateX(-100px);
+}
+
+/* SLIDE RIGHT */
+.reveal-right{
+    transform:translateX(100px);
+}
+
+/* ZOOM IN */
+.reveal-zoom-in{
+    transform:scale(.7);
+}
+
+/* ZOOM OUT */
+.reveal-zoom-out{
+    transform:scale(1.3);
+}
+:root{
+    --navy:#071B47;
+    --gold:#D4AF37;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+html,
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--navy);
+    color:white;
+    overflow-x:hidden;
+}
+
+section{
+    padding:80px 20px;
+}
+
+h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:42px;
+    text-align:center;
+    margin-bottom:40px;
+    color:var(--gold);
+}
+
+.wish-card{
+
+background:white;
+
+padding:20px;
+
+margin-bottom:15px;
+
+border-radius:15px;
+
+border-left:
+4px solid #D4AF37;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.08);
+
+}
+
+[data-aos]{
+    overflow:hidden;
+}
+.cover-card{
+    animation:heroFade 1.2s ease;
+}
+
+@keyframes heroFade{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+</style>
+<style>.bottom-nav{
+
+    position:fixed;
+
+    bottom:20px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:
+    rgba(7,27,71,.9);
+
+    backdrop-filter:
+    blur(15px);
+
+    padding:15px 25px;
+
+    border-radius:50px;
+
+    display:flex;
+
+    gap:25px;
+
+    border:
+    1px solid rgba(212,175,55,.3);
+
+    box-shadow:
+    0 0 30px rgba(0,0,0,.2);
+
+}
+.bottom-nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:500;
+}</style>
+
+<link
+rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css">
+
+</head>
+
+<body>
+ 
+<style>#musicControl{
+
+position:fixed;
+
+right:20px;
+
+bottom:100px;
+
+width:50px;
+height:50px;
+
+border-radius:50%;
+
+border:none;
+
+background:#D4AF37;
+
+z-index:999;
+
+}</style><button id="musicControl">
+
+♫
+
+</button>
+
+
+<!-- COOVER -->
+<style>.cover{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+linear-gradient(
+rgba(0,0,0,.5),
+rgba(0,0,0,.5)),
+url('bgcover.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+}
+
+.cover-card{
+
+    width:90%;
+    max-width:430px;
+
+    background:white;
+
+    color:#222;
+
+    text-align:center;
+
+    padding:60px 30px;
+
+    border:4px solid var(--gold);
+
+    border-radius:
+    220px 220px 20px 20px;
+
+}
+
+.subtitle{
+
+    letter-spacing:4px;
+    font-size:12px;
+
+}
+
+.cover-card h1{
+
+    font-family:
+    'Great Vibes',
+    cursive;
+
+    color:var(--gold);
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    margin:20px 0;
+
+}
+
+.cover-card button{
+
+    margin-top:30px;
+
+    background:var(--gold);
+
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+.guest-box{
+
+margin-top:30px;
+
+padding:15px;
+
+border:1px solid #D4AF37;
+
+border-radius:15px;
+
+}
+.divider{
+
+    width:80px;
+    height:2px;
+
+    background:var(--gold);
+
+    margin:20px auto;
+
+}
+
+.wedding-date{
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+
+}
+</style>
+<section class="cover">
+
+    <div class="cover-card">
+
+        <span class="subtitle reveal reveal-up">
+            THE WEDDING OF
+        </span>
+<h1 class="reveal reveal-zoom-in">
+    Diana
+    <br>
+    &
+    <br>
+    Rizky
+</h1>
+
+        <div class="divider"></div>
+
+        <p class="wedding-date reveal reveal-up">
+            10 Desember 2026
+        </p>
+
+        <div class="guest-box">
+
+            <small>
+                Kepada Yth.
+            </small>
+
+            <h3 id="guestName">
+                Tamu Undangan
+            </h3>
+
+        </div>
+
+        <button id="openInvitation">
+            Buka Undangan
+        </button>
+
+    </div>
+
+</section>
+
+<!-- OPENING -->
+<style>.card{
+
+    max-width:600px;
+
+    margin:auto;
+
+    background:white;
+
+    color:#222;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}</style>
+<section id="opening" class="opening reveal reveal-zoom-out">
+
+    <h2>
+        Assalamu'alaikum
+    </h2>
+
+    <div class="card reveal reveal-up">
+
+        <p>
+
+            Dengan memohon rahmat dan ridho Allah SWT,
+            kami mengundang Bapak/Ibu/Saudara/i
+            untuk hadir pada acara pernikahan kami.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- COUPLE -->
+<style>
+.couple{
+
+    background:white;
+    color:#222;
+    text-align:center;
+
+    position:relative;
+    z-index:2;
+
+    margin:100px 20px;
+    padding:120px 30px;
+
+    border-radius:300px 300px 300px 300px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.12);
+
+}
+
+.person{
+
+    margin-bottom:50px;
+
+}
+
+.person img{
+
+    width:180px;
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid var(--gold);
+
+    margin-bottom:20px;
+
+}
+.couple{
+    position:relative;
+    z-index:2;
+}
+.couple-ornament{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:40px 0;
+
+}
+
+.couple-ornament img{
+
+    width:120px;
+
+    opacity:.9;
+
+    animation:floatOrnament 4s ease-in-out infinite;
+
+}
+
+@keyframes floatOrnament{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+</style>
+<section id="couple"
+class="couple reveal">
+
+<h2>
+Mempelai
+</h2>
+
+<div class="person reveal reveal-left">
+
+<img src="mempelaiwanita.jpg">
+
+<h3>
+Diana Safira
+</h3>
+
+<p>
+Putri dari
+Bpk Ahmad &
+Ibu Siti
+</p>
+
+</div>
+<div class="couple-ornament reveal reveal-zoom-in">
+
+    <img src="ornament.png" alt="ornament">
+
+</div>
+
+<div class="person reveal reveal-right">
+
+<img src="mempelaipria.jpg">
+<h3>
+Rizky Pratama
+</h3>
+
+<p>
+Putra dari
+Bpk Hasan &
+Ibu Nur
+</p>
+
+</div>
+
+</section>
+
+<!-- COUNDOWNT -->
+<style>.countdown{
+
+    text-align:center;
+
+}
+
+.timer{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.time-box{
+
+    width:90px;
+
+    background:white;
+
+    color:#222;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:2px solid var(--gold);
+
+}
+
+.time-box span{
+
+    display:block;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    color:var(--gold);
+
+}</style>
+<section id="countdown"
+class="countdown reveal reveal-up">
+
+    <h2>
+        Menuju Hari Bahagia
+    </h2>
+
+    <div class="timer reveal reveal-up">
+
+        <div class="time-box">
+            <span id="days">00</span>
+            <small>Hari</small>
+        </div>
+
+        <div class="time-box reveal reveal-up">
+            <span id="hours">00</span>
+            <small>Jam</small>
+        </div>
+
+        <div class="time-box reveal reveal-up">
+            <span id="minutes">00</span>
+            <small>Menit</small>
+        </div>
+
+        <div class="time-box reveal reveal-up">
+            <span id="seconds">00</span>
+            <small>Detik</small>
+        </div>
+
+    </div>
+
+</section>
+<style>.save-date{
+
+text-align:center;
+
+}</style><section class="save-date reveal reveal-zoom-in">
+
+<h2>
+Save The Date
+</h2>
+
+<a
+target="_blank"
+href="#">
+
+Tambahkan ke Kalender
+
+</a>
+
+</section>
+
+<!-- EVENT -->
+<style>.event{
+
+    background:white;
+
+    color:#222;
+
+}
+
+.event-card{
+
+    max-width:500px;
+
+    margin:20px auto;
+
+    padding:30px;
+
+    text-align:center;
+
+    border:2px solid var(--gold);
+
+    border-radius:20px;
+
+}</style>
+<section id="event" class="event reveal reveal-up">
+
+
+    <h2>
+        Detail Acara
+    </h2>
+
+    <div class="event-card reveal reveal-right">
+
+
+        <h3>Akad Nikah</h3>
+
+        <p>Kamis, 10 Desember 2026</p>
+
+        <p>08.00 WIB</p>
+
+    </div>
+
+    <div class="event-card reveal reveal-left">
+
+
+        <h3>Resepsi</h3>
+
+        <p>Kamis, 10 Desember 2026</p>
+
+        <p>11.00 WIB</p>
+
+    </div>
+
+</section>
+
+<!-- MAPS -->
+<style>.maps{
+
+    text-align:center;
+
+}
+
+.maps iframe{
+
+    width:100%;
+
+    max-width:800px;
+
+    height:350px;
+
+    border:none;
+
+    border-radius:20px;
+
+}
+
+.maps-btn{
+
+    display:inline-block;
+
+    background:var(--gold);
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+}</style>
+<section class="maps reveal reveal-up">
+
+
+    <h2>
+        Lokasi Acara
+    </h2>
+
+    <p>
+        Gedung Serbaguna XYZ
+    </p>
+
+    <iframe class="reveal reveal-up"
+        src="https://maps.google.com/maps?q=jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+
+    <br><br>
+
+    <a
+href="https://maps.google.com/?q=Lokasi+Acara"
+target="_blank"
+class="maps-btn reveal reveal-up">
+Buka Google Maps
+</a>
+
+</section>
+
+<!-- LOVE STORY -->
+<style>.timeline{
+
+position:relative;
+
+max-width:800px;
+
+margin:auto;
+
+}
+
+.timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+top:0;
+
+width:2px;
+
+height:100%;
+
+background:#D4AF37;
+
+}
+
+.timeline-item{
+
+width:45%;
+
+padding:25px;
+
+background:white;
+
+color:#222;
+
+border-radius:20px;
+
+margin-bottom:30px;
+
+position:relative;
+
+}
+.timeline-item:nth-child(odd){
+    margin-right:auto;
+}
+
+.timeline-item:nth-child(even){
+    margin-left:auto;
+}@media(max-width:768px){
+
+.timeline::before{
+    left:20px;
+}
+
+.timeline-item{
+    width:calc(100% - 50px);
+    margin-left:50px !important;
+}
+
+}
+.timeline-item{
+    width:60%;
+}
+</style>
+<section id="story"
+class="story reveal reveal-up">
+
+
+    <h2>
+        Perjalanan Kami
+    </h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item reveal reveal-left">
+
+
+            <span>2021</span>
+
+            <h3>
+                Pertama Bertemu
+            </h3>
+
+            <p>
+                Kami pertama kali bertemu.
+            </p>
+
+        </div>
+
+        <div class="timeline-item reveal reveal-right">
+
+
+            <span>2023</span>
+
+            <h3>
+                Menjalin Hubungan
+            </h3>
+
+            <p>
+                Mulai mengenal lebih dekat.
+            </p>
+
+        </div>
+
+        <div class="timeline-item reveal reveal-left">
+
+
+            <span>2026</span>
+
+            <h3>
+                Menikah
+            </h3>
+
+            <p>
+                Memutuskan untuk hidup bersama.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GALERI -->
+<style>.gallery{
+
+    background:white;
+
+    color:#222;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(200px,1fr));
+
+    gap:15px;
+
+}
+
+.gallery-grid img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    display:block;
+
+}
+.myGallery{
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.swiper-slide{
+
+    text-align:center;
+
+}
+
+.swiper-slide img{
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    border:3px solid var(--gold);
+
+}
+.photo-wrapper{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+}
+
+.love-icon{
+    position:absolute;
+    top:15px;
+    right:15px;
+
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:rgba(255,255,255,.9);
+
+    border-radius:50%;
+
+    font-size:22px;
+
+    backdrop-filter:blur(5px);
+
+    z-index:10;
+
+    transition:.3s;
+}
+
+.heart-animation{
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    font-size:80px;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    z-index:9;
+}
+.love-icon.active{
+    background:#fff;
+    transform:scale(1.1);
+}
+.heart-animation.show{
+    animation:heartPop .8s ease;
+}
+
+@keyframes heartPop{
+    0%{
+        opacity:0;
+        transform:translate(-50%,-50%) scale(.5);
+    }
+
+    30%{
+        opacity:1;
+        transform:translate(-50%,-50%) scale(1.4);
+    }
+
+    100%{
+        opacity:0;
+        transform:translate(-50%,-70%) scale(1);
+    }
+}
+.gallery img{
+    opacity:0;
+    transform:scale(1.08);
+    transition:1s ease;
+}
+
+.gallery.active img{
+    opacity:1;
+    transform:scale(1);
+}
+</style>
+<section id="gallery" class="gallery reveal reveal-zoom-in">
+
+    <h2>
+        Galeri Kami
+    </h2>
+
+    <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-left">
+
+        <img src="foto1.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+
+    </div>
+
+</div>
+        <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-right">
+
+        <img src="foto2.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+
+    </div>
+
+</div>
+          <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-left">
+
+        <img src="foto3.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+
+    </div>
+
+</div>
+        <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-right">
+
+        <img src="foto4.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+
+    </div>
+        <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-left">
+
+        <img src="foto5.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+        <div class="swiper-slide">
+
+    <div class="photo-wrapper reveal reveal-right">
+
+        <img src="foto6.jpg" loading="lazy">
+
+        <div class="love-icon">🤍</div>
+
+        <div class="heart-animation">❤️</div>
+
+        <div class="swiper-pagination"></div>
+
+</section>
+
+<!-- RSVP -->
+<style>.rsvp{
+
+    text-align:center;
+
+}
+
+.rsvp form{
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+.rsvp input,
+.rsvp select,
+.rsvp textarea{
+
+    width:100%;
+
+    margin-bottom:15px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+}
+
+.rsvp button{
+
+    background:var(--gold);
+
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}</style>
+<section class="rsvp reveal reveal-zoom-out">
+
+    <h2>
+        Konfirmasi Kehadiran
+    </h2>
+
+    <form id="rsvpForm reveal reveal-up">
+
+        <input
+            type="text"
+            id="guestInput"
+            placeholder="Nama Anda"
+            required>
+
+        <select id="attendance reveal reveal-up">
+
+            <option value="">
+                Pilih Kehadiran
+            </option>
+
+            <option>
+                Hadir
+            </option>
+
+            <option>
+                Tidak Hadir
+            </option>
+
+        </select>
+
+        <textarea
+            id="message"
+            placeholder="Berikan Ucapan">
+        </textarea>
+
+        <button type="submit">
+            Kirim Ucapan
+        </button>
+
+    </form>
+
+</section>
+
+<!-- UCAPAN TAMU -->
+<style>.wishes{
+
+    background:white;
+
+    color:#222;
+
+}
+
+#wishContainer{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.wish-card{
+
+    background:#f5f5f5;
+
+    padding:20px;
+
+    margin-bottom:15px;
+
+    border-radius:12px;
+
+}
+.attendance-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-bottom:40px;
+
+}
+
+.attendance-box div{
+
+background:white;
+
+padding:20px;
+
+border-radius:15px;
+
+min-width:120px;
+
+}</style>
+<section class="wishes reveal reveal-up">
+
+    <h2>
+        Ucapan & Doa
+    </h2>
+<div class="attendance-box">
+
+<div>
+
+<h3 id="hadirCount">
+0
+</h3>
+
+<p>Hadir</p>
+
+</div>
+
+<div>
+
+<h3 id="tidakHadirCount">
+0
+</h3>
+
+<p>Tidak Hadir</p>
+
+</div>
+
+</div>
+    <div id="wishContainer">
+
+    </div>
+
+</section>
+
+<!-- AMPLOP DIGITAL -->
+<style>.gift{
+
+    text-align:center;
+
+}
+
+.bank-card{
+
+    max-width:400px;
+
+    margin:auto;
+
+    background:white;
+
+    color:#222;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:2px solid var(--gold);
+
+}
+.gift{
+
+    text-align:center;
+
+}
+
+.gift-desc{
+
+    max-width:600px;
+
+    margin:0 auto 40px;
+
+    opacity:.8;
+
+}
+
+.bank-card,
+.qris-card{
+
+    max-width:420px;
+
+    margin:25px auto;
+
+    padding:30px;
+
+    background:white;
+
+    color:#222;
+
+    border-radius:25px;
+
+    border:2px solid var(--gold);
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.1);
+
+}
+
+.bank-logo{
+
+    width:120px;
+
+    margin-bottom:15px;
+
+}
+
+.bank-card h3,
+.qris-card h3{
+
+    color:var(--gold);
+
+    margin-bottom:15px;
+
+}
+
+#rekening{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.qris-image{
+
+    width:220px;
+
+    margin:20px auto;
+
+    display:block;
+
+}
+
+.bank-card button{
+
+    background:var(--gold);
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.bank-card button:hover{
+
+    transform:translateY(-3px);
+
+}</style>
+<section id="gift" class="gift reveal reveal-zoom-in">
+
+    <h2>
+        Amplop Digital
+    </h2>
+
+    <p class="gift-desc">
+        Doa restu Anda merupakan karunia yang sangat berarti bagi kami.
+        Namun jika ingin memberikan tanda kasih, dapat melalui:
+    </p>
+
+    <!-- BCA -->
+    <div
+class="bank-card reveal reveal-right">
+
+        <img
+        src="assets/img/bca.png"
+        class="bank-logo">
+
+        <h3>
+            Bank BCA
+        </h3>
+
+        <p id="rekening">
+            1234567890
+        </p>
+
+        <small>
+            a.n Diana Safira
+        </small>
+
+        <br><br>
+
+        <button id="copyRekening">
+            Salin Rekening
+        </button>
+
+    </div>
+
+    <!-- QRIS -->
+
+   <div
+class="qris-card reveal reveal-left">
+
+        <h3>
+            QRIS
+        </h3>
+
+        <img
+        src="assets/img/qris.png"
+        class="qris-image">
+
+        <p>
+            Scan QRIS untuk transfer
+        </p>
+
+    </div>
+
+</section>
+
+<!-- THANK YOU -->
+<section class="thanks reveal reveal-right">
+
+    <h2>
+        Terima Kasih
+    </h2>
+
+    <p>
+
+        Merupakan suatu kehormatan
+        dan kebahagiaan bagi kami
+        apabila Bapak/Ibu/Saudara/i
+        berkenan hadir.
+
+    </p>
+
+    <br>
+
+    <h3>
+        Diana & Rizky
+    </h3>
+
+</section>
+
+<style>
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    background:#021130;
+    
+
+footer{
+    padding:30px 20px 120px;
+}
+</style><footer>
+
+    <p>
+        Made With ❤ by YourBrand
+    </p>
+    
+
+</footer>
+
+<!-- CONTENT DISINI -->
+<!-- CONTENT DISINI -->
+<!-- CONTENT DISINI -->
+<!-- CONTENT DISINI -->
+<audio id="music" loop>
+    <source
+    src="music.mp3"
+    type="audio/mpeg">
+</audio>
+
+<script>
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    // ======================
+    // ELEMENT
+    // ======================
+
+    const music = document.getElementById("music");
+    const openBtn = document.getElementById("openInvitation");
+  
+    // ======================
+    // GUEST NAME
+    // ======================
+
+    const params = new URLSearchParams(window.location.search);
+    const guest = params.get("to");
+
+    if (guest) {
+
+        const welcomeGuest =
+        document.getElementById("welcomeGuest");
+
+        const guestName =
+        document.getElementById("guestName");
+
+        if (welcomeGuest)
+            welcomeGuest.textContent = guest;
+
+        if (guestName)
+            guestName.textContent = guest;
+    }
+
+    // ======================
+    // LOCK SCROLL
+    // ======================
+
+   const openBtn = document.getElementById("openInvitation");
+
+    // ======================
+    // COVER BUTTON
+    // ======================
+
+    if (openBtn) {
+
+        openBtn.addEventListener("click", () => {
+
+            const opening =
+            document.getElementById("opening");
+
+            if (opening) {
+
+                opening.scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            }
+
+        });
+
+    }
+
+    // ======================
+    // COUNTDOWN
+    // ======================
+
+    const targetDate =
+    new Date("2026-12-10T08:00:00");
+
+    function updateCountdown() {
+
+        const now = new Date();
+        const distance = targetDate - now;
+
+        if (distance < 0) return;
+
+        const days =
+        Math.floor(distance / (1000 * 60 * 60 * 24));
+
+        const hours =
+        Math.floor(
+            (distance % (1000 * 60 * 60 * 24))
+            /
+            (1000 * 60 * 60)
+        );
+
+        const minutes =
+        Math.floor(
+            (distance % (1000 * 60 * 60))
+            /
+            (1000 * 60)
+        );
+
+        const seconds =
+        Math.floor(
+            (distance % (1000 * 60))
+            /
+            1000
+        );
+
+        const elDays =
+        document.getElementById("days");
+
+        const elHours =
+        document.getElementById("hours");
+
+        const elMinutes =
+        document.getElementById("minutes");
+
+        const elSeconds =
+        document.getElementById("seconds");
+
+        if (elDays) elDays.textContent = days;
+        if (elHours) elHours.textContent = hours;
+        if (elMinutes) elMinutes.textContent = minutes;
+        if (elSeconds) elSeconds.textContent = seconds;
+
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // ======================
+    // COPY REKENING
+    // ======================
+
+    const copyBtn =
+    document.getElementById("copyRekening");
+
+    if (copyBtn) {
+
+        copyBtn.addEventListener("click", () => {
+
+            navigator.clipboard.writeText(
+                "1234567890"
+            );
+
+            copyBtn.innerHTML =
+            "✓ Berhasil Disalin";
+
+            setTimeout(() => {
+
+                copyBtn.innerHTML =
+                "Salin Rekening";
+
+            }, 2000);
+
+        });
+
+    }
+
+    // ======================
+    // RSVP
+    // ======================
+
+    const form =
+    document.getElementById("rsvpForm");
+
+    const wishContainer =
+    document.getElementById("wishContainer");
+
+    let wishes =
+    JSON.parse(
+        localStorage.getItem("wishes")
+    ) || [];
+
+    function renderWishes() {
+
+        if (!wishContainer) return;
+
+        wishContainer.innerHTML = "";
+
+        const hadir =
+        wishes.filter(
+            x => x.attendance === "Hadir"
+        ).length;
+
+        const tidakHadir =
+        wishes.filter(
+            x => x.attendance === "Tidak Hadir"
+        ).length;
+
+        const hadirCount =
+        document.getElementById("hadirCount");
+
+        const tidakHadirCount =
+        document.getElementById("tidakHadirCount");
+
+        if (hadirCount)
+            hadirCount.textContent = hadir;
+
+        if (tidakHadirCount)
+            tidakHadirCount.textContent = tidakHadir;
+            
+
+        wishes.forEach(item => {
+
+            wishContainer.innerHTML += `
+            <div class="wish-card">
+                <strong>${item.name}</strong>
+                <p>${item.message}</p>
+                <small>${item.attendance}</small>
+            </div>
+            `;
+
+        });
+
+    }
+
+    renderWishes();
+
+    if (form) {
+
+        form.addEventListener(
+        "submit",
+        function(e) {
+
+            e.preventDefault();
+
+            wishes.unshift({
+
+                name:
+                document.getElementById("guestInput").value,
+
+                attendance:
+                document.getElementById("attendance").value,
+
+                message:
+                document.getElementById("message").value
+
+            });
+
+            localStorage.setItem(
+                "wishes",
+                JSON.stringify(wishes)
+            );
+
+            renderWishes();
+
+            this.reset();
+
+        });
+
+    }
+
+    // ======================
+    // MUSIC CONTROL
+    // ======================
+
+    const musicControl =
+    document.getElementById("musicControl");
+
+    if (musicControl) {
+
+        musicControl.addEventListener(
+        "click",
+        () => {
+
+            if (!music) return;
+
+            if (music.paused) {
+
+                music.play();
+
+            } else {
+
+                music.pause();
+
+            }
+
+        });
+
+    }
+
+    // ======================
+    // LOADER
+    // ======================
+
+    const loader =
+    document.getElementById("loader");
+
+    if (loader) {
+
+        setTimeout(() => {
+
+            loader.style.opacity = "0";
+
+            setTimeout(() => {
+
+                loader.style.display = "none";
+
+            }, 800);
+
+        }, 1500);
+
+    }
+AOS.init({
+    duration:1000,
+    easing:"ease-in-out",
+    once:false,
+    mirror:true,
+    offset:80
+});
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+new Swiper(".myGallery",{
+    loop:true,
+    autoplay:{
+        delay:3000
+    },
+    pagination:{
+        el:".swiper-pagination"
+    }
+});
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+Fancybox.bind("[data-fancybox]");
+</script>
+<script>
+const reveals =
+document.querySelectorAll(".reveal");
+
+function revealOnScroll(){
+
+    const windowHeight =
+    window.innerHeight;
+
+    reveals.forEach(el => {
+
+        const rect =
+        el.getBoundingClientRect();
+
+        const visible =
+        120;
+
+        if(
+            rect.top < windowHeight - visible &&
+            rect.bottom > visible
+        ){
+
+            el.classList.add("active");
+
+        } else {
+
+            el.classList.remove("active");
+
+        }
+
+    });
+
+}
+
+window.addEventListener(
+    "scroll",
+    revealOnScroll
+);
+
+window.addEventListener(
+    "load",
+    revealOnScroll
+);
+</script>
+<script>
+  document.querySelectorAll(".photo-wrapper").forEach(wrapper=>{
+
+    const img = wrapper.querySelector("img");
+    const icon = wrapper.querySelector(".love-icon");
+    const heart = wrapper.querySelector(".heart-animation");
+
+    img.addEventListener("dblclick",()=>{
+
+        icon.textContent = "❤️";
+        icon.classList.add("active");
+
+        heart.classList.add("show");
+
+        setTimeout(()=>{
+            heart.classList.remove("show");
+        },800);
+
+    });
+
+});
+</script>
+<script>
+  const openBtn = document.getElementById("openInvitation");
+
+if(openBtn){
+
+    openBtn.addEventListener("click",()=>{
+
+        if(music){
+            music.play().catch(()=>{});
+        }
+
+        document.querySelector(".bottom-nav")
+        ?.classList.add("show");
+
+        document.getElementById("opening")
+        ?.scrollIntoView({
+            behavior:"smooth"
+        });
+
+    });
+
+}</script>
+
+
+</body>
+</html>
