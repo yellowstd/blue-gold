@@ -1907,7 +1907,75 @@ if(openBtn){
 
     });
 
-}</script>
+}
+// ======================
+// MUSIC
+// ======================
+
+const musicControl =
+document.getElementById("musicControl");
+
+if(openBtn){
+
+    openBtn.addEventListener("click", () => {
+
+        music.play();
+
+    });
+
+}
+
+if(musicControl){
+
+    musicControl.addEventListener("click", () => {
+
+        if(music.paused){
+
+            music.play();
+            musicControl.innerHTML = "♫";
+
+        } else {
+
+            music.pause();
+            musicControl.innerHTML = "⏸";
+
+        }
+
+    });
+
+}
+
+// ======================
+// COPY REKENING
+// ======================
+
+const copyBtn =
+document.getElementById("copyRekening");
+
+if(copyBtn){
+
+    copyBtn.addEventListener("click", () => {
+
+        const rekening =
+        document.getElementById("rekening")
+        .innerText;
+
+        navigator.clipboard.writeText(rekening);
+
+        copyBtn.innerText =
+        "Berhasil Disalin";
+
+        setTimeout(() => {
+
+            copyBtn.innerText =
+            "Salin Rekening";
+
+        },2000);
+
+    });
+
+}
+</script>
 
 
 </body>
