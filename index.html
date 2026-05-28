@@ -1735,35 +1735,6 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     // ======================
-    // MUSIC CONTROL
-    // ======================
-
-    const musicControl =
-    document.getElementById("musicControl");
-
-    if (musicControl) {
-
-        musicControl.addEventListener(
-        "click",
-        () => {
-
-            if (!music) return;
-
-            if (music.paused) {
-
-                music.play();
-
-            } else {
-
-                music.pause();
-
-            }
-
-        });
-
-    }
-
-    // ======================
     // LOADER
     // ======================
 
@@ -1885,70 +1856,34 @@ window.addEventListener(
     });
 
 });
-</script>
-<script>
-  const openBtn = document.getElementById("openInvitation");
-
-if(openBtn){
-
-    openBtn.addEventListener("click",()=>{
-
-        if(music){
-            music.play().catch(()=>{});
-        }
-
-        document.querySelector(".bottom-nav")
-        ?.classList.add("show");
-
-        document.getElementById("opening")
-        ?.scrollIntoView({
-            behavior:"smooth"
-        });
-
-    });
-
-}
-// ======================
-// MUSIC
-// ======================
-
-const musicControl =
-document.getElementById("musicControl");
-
-if(openBtn){
-
-    openBtn.addEventListener("click", () => {
-
-        music.play();
-
-    });
-
-}
-
-if(musicControl){
-
-    musicControl.addEventListener("click", () => {
-
-        if(music.paused){
-
-            music.play();
-            musicControl.innerHTML = "♫";
-
-        } else {
-
-            music.pause();
-            musicControl.innerHTML = "⏸";
-
-        }
-
-    });
-
-}
 
 // ======================
 // COPY REKENING
 // ======================
 
+if (openBtn) {
+
+    openBtn.addEventListener("click", () => {
+
+        // PLAY MUSIC
+        music.play();
+
+        // SCROLL
+        const opening =
+        document.getElementById("opening");
+
+        if (opening) {
+
+            opening.scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+    });
+
+}
+    
 const copyBtn =
 document.getElementById("copyRekening");
 
